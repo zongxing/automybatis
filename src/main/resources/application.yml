@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql://127.0.0.1:3306/mycrm?useSSL=false&serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+logging:
+  level:
+      com.mashensoft: debug
+mybatis:
+  config-location: classpath:/mybatis/mybatis_config.xml
+  mapper-locations: classpath:/mybatis/mapper/*.xml    
+    
